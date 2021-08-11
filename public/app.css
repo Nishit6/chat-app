@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(190, 26, 26);
-}
+
 
 #login{
   margin-left: 20px;
@@ -23,23 +21,25 @@ body{
     list-style: none;
      text-align: center;
       color: white;
+     width: 330px;
+
       
   }
   li{
   
     margin: 50px auto;
-  
+    border-radius:0px  50px 50px 50px ;
     box-shadow: 2px 3px 4px rgb(128, 0, 0);
     padding-top: 3px;
   }
  li:nth-last-of-type(odd){
-    background-color:rgb(78, 78, 78);
+    background-color:rgb(95, 233, 226);
   }
   li:nth-last-of-type(even){
-    background-color: rgb(172, 171, 171);
+    background-color: rgb(85, 156, 238);
   }
   strong{
-    color:gold;
+    color:rgb(255, 166, 0);
   }
   nav{
     margin-top: -25px;
@@ -51,4 +51,29 @@ body{
     height: 30px;
     text-align: center;
     margin-left: -30px;
+  }
+  @media all and (max-width:340px) {
+    
+    #chat{
+      width:250px
+    }
+    #list{
+      width:280px
+    }
+    
+  }
+  @media all and (max-width:280px) {
+    
+    #chat{
+      width:200px
+    }
+    
+  }
+
+  @media all and (max-width:280px) {
+    
+    
+    #list{
+      width:220px
+    }
   }

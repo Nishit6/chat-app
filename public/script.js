@@ -25,11 +25,15 @@ $('#send').click(()=>{
 
     })
     $('#text-area').val("")
+    $('.emojionearea-editor').text("");
 })
 
 socket.on('recieved_msg',(data)=>{
 
-    $('#list').append(`<li> <strong>${data.name}</strong> :  ${data.msg}</li>`)
+    $('#list').prepend(`<li> <strong>${data.name}</strong> :  ${data.msg}</li>`)
 
-
+   
 })
+
+
+
