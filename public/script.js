@@ -11,10 +11,12 @@ $('#login-btn').click(()=>{
 
         name:$('#login-inp').val()
     })
+
+
         $('#login').hide();
         $('#chat').show();
 
-
+    
 })
 
 $('#send').click(()=>{
@@ -26,6 +28,7 @@ $('#send').click(()=>{
     })
     $('#text-area').val("")
     $('.emojionearea-editor').text("");
+    
 })
 
 socket.on('recieved_msg',(data)=>{
@@ -34,6 +37,4 @@ socket.on('recieved_msg',(data)=>{
 
    
 })
-
-
 

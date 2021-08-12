@@ -21,7 +21,7 @@
     list-style: none;
      text-align: center;
       color: white;
-     width: 330px;
+     
      font-weight: bold;
      
 
@@ -31,17 +31,19 @@
   
     margin: 50px auto;
     border-radius:0px  50px 50px 50px ;
-    box-shadow: 2px 3px 4px rgb(128, 0, 0);
+    box-shadow: 5px 7px 4px gray;
     padding-top: 3px;
+    
   }
  li:nth-last-of-type(odd){
-    background-color:rgb(233, 134, 95);
+    background-color:rgb(231, 226, 224);
+    color: black;
   }
   li:nth-last-of-type(even){
     background-color: rgb(85, 156, 238);
   }
   strong{
-    color:rgb(0, 156, 52);
+    color:#e63946;
   }
   nav{
     margin-top: -25px;
@@ -54,6 +56,21 @@
     text-align: center;
     margin-left: -30px;
   }
+  
+#chaticon{
+  margin-right: 5px;
+}
+
+footer{
+  background-color: #459db3;
+ 
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+
   @media all and (max-width:340px) {
     
     #chat{

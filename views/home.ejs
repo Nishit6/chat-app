@@ -7,28 +7,40 @@
     <link rel="stylesheet" href="/app.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <title>Let's Chat</title>
-  
+    <link rel="icon"  href="https://www.sierranevadacheese.com/wp-content/uploads/2017/01/cropped-Favicon.png">
 </head>
 <body style="background-color: black;">
     <style>
         h1{
+            
             color: white; 
             font-family: 'Newsreader', serif;
             margin-top: 200px;
             text-align: center;
             font-size: 4rem;
         }
+        h5{
+           
+            font-family: 'Newsreader', serif;
+            margin-top: 50px;
+            text-align: center;
+            font-size:1.5rem;
+        }
+        h5:hover{
+            color: #ffc6ff; 
+        }
         #enter{
             color: yellow;
             
         }
+        
     </style>
 
 <%- include("../partials/navbar") %> 
 
 <div >
     <h1 >Start Chatting <br><a href="/chat"><%- include("../partials/icon") %> </a></h1> 
-   
+    <h5> "Welcome to TexTer"<br> Enjoy chatting with loved ones...</h5>
 </div>
    
   
